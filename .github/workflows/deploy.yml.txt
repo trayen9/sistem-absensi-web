@@ -1,4 +1,4 @@
-name: Sistem Absensi
+name: CI Sistem Absensi v2
 
 on:
   push:
