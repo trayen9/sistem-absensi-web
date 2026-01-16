@@ -1,0 +1,14 @@
+name: CI Sistem Absensi
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ambil kode dari repository
+        uses: actions/checkout@v4
